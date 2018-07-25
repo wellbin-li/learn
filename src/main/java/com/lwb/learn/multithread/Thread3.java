@@ -1,33 +1,19 @@
 package com.lwb.learn.multithread;
 
-public class Thread3 implements Runnable {
+import java.util.concurrent.Callable;
 
-    private String name;
-    private Object prev;
-    private Object self;
+public class Thread3 implements Callable {
 
-    public Thread3(String name, Object prev, Object self) {
-        this.name = name;
-        this.prev = prev;
-        this.self = self;
-    }
+    private int i = 0;
 
+    // 与run()方法不同的是，call()方法具有返回值
     @Override
-    public void run() {
-        int count = 10;
-        while(count>0){
-            synchronized (prev){
-                synchronized (self){
-                    System.out.println(name);
-                    count--;
-                    self.notify();
-                }
-                try {
-                    prev.wait();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }
+    public Integer call() throws Exception {
+        int sum = 0;
+        for (; i < 100; i++) {
+            System.out.println(Thread.currentThread().getName() + "" + i);
+            sum += i;
         }
+        return sum;
     }
 }

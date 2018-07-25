@@ -9,9 +9,9 @@ public class ThreadTest2 {
         Object a = new Object();
         Object b = new Object();
         Object c = new Object();
-        Thread3 ta = new Thread3("A",c,a);
-        Thread3 tb = new Thread3("B",a,b);
-        Thread3 tc = new Thread3("C",b,c);
+        Thread4 ta = new Thread4("A",c,a);
+        Thread4 tb = new Thread4("B",a,b);
+        Thread4 tc = new Thread4("C",b,c);
         new Thread(ta).start();
         Thread.sleep(100);
         new Thread(tb).start();
