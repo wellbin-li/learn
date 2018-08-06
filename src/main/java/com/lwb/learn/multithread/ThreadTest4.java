@@ -8,6 +8,8 @@ import java.util.concurrent.locks.ReentrantLock;
  * ReentrantLock的使用:https://www.cnblogs.com/-new/p/7256297.html
  *
  * 多线程经典案例 多线程多消费(ReentrantLock)
+ *
+ * Lock与synchronized 的区别: http://www.cnblogs.com/nsw2018/p/5821738.html
  */
 public class ThreadTest4 {
     public static void main(String[] args) {
