@@ -1,10 +1,10 @@
 package com.lwb.learn.programmingexercises;
 
-
 /**
- * ÌâÄ¿ÃèÊö
- * ÇëÊµÏÖÒ»¸öº¯Êı£¬½«Ò»¸ö×Ö·û´®ÖĞµÄÃ¿¸ö¿Õ¸ñÌæ»»³É¡°%20¡±¡£ÀıÈç£¬µ±×Ö·û´®ÎªWe Are Happy.Ôò¾­¹ıÌæ»»Ö®ºóµÄ×Ö·û´®ÎªWe%20Are%20Happy¡£
- * Created by LIWENBIN on 2018/8/6
+ * æ›¿æ¢ç©ºæ ¼
+ *
+ * é¢˜ç›®æè¿°
+ * è¯·å®ç°ä¸€ä¸ªå‡½æ•°ï¼Œå°†ä¸€ä¸ªå­—ç¬¦ä¸²ä¸­çš„æ¯ä¸ªç©ºæ ¼æ›¿æ¢æˆâ€œ%20â€ã€‚ä¾‹å¦‚ï¼Œå½“å­—ç¬¦ä¸²ä¸ºWe Are Happy.åˆ™ç»è¿‡æ›¿æ¢ä¹‹åçš„å­—ç¬¦ä¸²ä¸ºWe%20Are%20Happyã€‚
  */
 public class Test2 {
     public static void main(String[] args) {
