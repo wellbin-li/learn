@@ -8,7 +8,30 @@ package com.lwb.learn.programmingexercises;
  */
 public class Test9 {
 
+    /**
+     * 方法三
+     */
     public int JumpFloorII(int target) {
-        return 1;
+        return 1<<(target-1);
     }
+
+    /**
+     * 方法二
+     */
+//    public int JumpFloorII(int target) {
+//        if(target<2){
+//            return target;
+//        }
+//        return JumpFloorII(target-1)*2;
+//    }
+
+    /**
+     * 方法一
+     */
+//    public int JumpFloorII(int target) {
+//        if(target==0){
+//            return 0;
+//        }
+//        return (int)Math.pow(2, target-1);
+//    }
 }
