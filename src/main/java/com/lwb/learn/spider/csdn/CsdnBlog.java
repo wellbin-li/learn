@@ -1,4 +1,4 @@
-package com.lwb.learn.spider.practice;
+package com.lwb.learn.spider.csdn;
 
 public class CsdnBlog {
 

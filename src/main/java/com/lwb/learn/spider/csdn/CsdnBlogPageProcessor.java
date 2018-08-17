@@ -1,4 +1,4 @@
-package com.lwb.learn.spider.practice;
+package com.lwb.learn.spider.csdn;
 
 import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.Site;
@@ -6,6 +6,13 @@ import us.codecraft.webmagic.Spider;
 import us.codecraft.webmagic.processor.PageProcessor;
 import us.codecraft.webmagic.selector.Selectable;
 
+/**
+ * 使用webmagic框架爬取CSDN上指定用户的所有博客
+ * 参考：
+ * https://blog.csdn.net/qq598535550/article/details/51287630
+ * https://blog.csdn.net/Al_assad/article/details/70217621?locationNum=10&fps=1
+ * https://www.cnblogs.com/emperorking/articles/6097827.html
+ */
 public class CsdnBlogPageProcessor implements PageProcessor {
 
     private static String username = "qq_36330643";// 设置csdn用户名m0_37459945,qq_36330643

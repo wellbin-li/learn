@@ -1,6 +1,5 @@
-package com.lwb.learn.spider.practice;
+package com.lwb.learn.spider.csdn;
 
-import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
