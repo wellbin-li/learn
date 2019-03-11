@@ -1,4 +1,4 @@
-package com.lwb.learn.GarbageCollection;
+package com.lwb.learn.garbagecollection;
 
 public class GCTest {
     private Object instance = null;

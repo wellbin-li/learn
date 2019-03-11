@@ -1,4 +1,4 @@
-package com.lwb.learn.datastructure;
+package com.lwb.learn.datastructure.search;
 
 /**
  * 二分查找

@@ -1,4 +1,4 @@
-package com.lwb.learn.GarbageCollection;
+package com.lwb.learn.garbagecollection;
 
 /**
  * finalize方法实践
